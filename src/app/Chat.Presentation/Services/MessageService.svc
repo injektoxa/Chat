@@ -1,0 +1,6 @@
+﻿<%@ ServiceHost 
+    Language="C#" 
+    Debug="true" 
+    Service="Chat.Presentation.UI.Services.MessageService" 
+    CodeBehind="MessageService.svc.cs" 
+%>

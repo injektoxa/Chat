@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b72f6f27-bbd5-4cbe-b7a6-72ffba92fa15" name="kovpenko@INJETOXA 2011-10-26 10:53:34" runUser="NIX\kovpenko" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="5645ed5a-a75b-4481-9f9c-4d7d94bfd810">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="kovpenko_INJETOXA 2011-10-26 10_53_34">
+      <DeploymentItem filename="C:\Users\kovpenko\Desktop\Chat\src\app\Chat.DataAccess\bin\Debug\Chat.DataAccess.dll" />
+      <DeploymentItem filename="C:\Users\kovpenko\Desktop\Chat\src\app\Chat.Core\bin\Debug\Chat.Core.dll" />
+      <DeploymentItem filename="C:\Users\kovpenko\Desktop\Chat\src\app\Chat.BusinessLogic\bin\Debug\Chat.BusinessLogic.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-10-26T10:53:34.2101531+03:00" queuing="2011-10-26T10:53:34.2161534+03:00" start="2011-10-26T10:53:34.2321543+03:00" finish="2011-10-26T10:53:34.7381833+03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="ReceiveMessagesTest" storage="c:\users\kovpenko\desktop\chat\src\test\chat.test\bin\debug\chat.test.dll" id="e8ee53c4-4087-b4db-d874-9f2c25d2b361">
+      <Execution id="3fec47af-9678-4fe1-8630-027ef1860095" />
+      <TestMethod codeBase="C:/Users/kovpenko/Desktop/Chat/src/test/Chat.Test/bin/Debug/Chat.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chat.Test.ChatManagerTest, Chat.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReceiveMessagesTest" />
+    </UnitTest>
+    <UnitTest name="SendMessageTest" storage="c:\users\kovpenko\desktop\chat\src\test\chat.test\bin\debug\chat.test.dll" id="6b392ccf-8454-8608-8f21-db23085b66c0">
+      <Execution id="cb332930-8210-42c6-99e0-057326b23e5a" />
+      <TestMethod codeBase="C:/Users/kovpenko/Desktop/Chat/src/test/Chat.Test/bin/Debug/Chat.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chat.Test.ChatManagerTest, Chat.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SendMessageTest" />
+    </UnitTest>
+    <UnitTest name="ReceiveMessagesTestException" storage="c:\users\kovpenko\desktop\chat\src\test\chat.test\bin\debug\chat.test.dll" id="e9420a6d-23f3-71b8-9850-59a6c7eb09c6">
+      <Execution id="8fd0ef45-1f16-4f99-9d15-5cdd57e22bd3" />
+      <TestMethod codeBase="C:/Users/kovpenko/Desktop/Chat/src/test/Chat.Test/bin/Debug/Chat.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chat.Test.ChatManagerTest, Chat.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReceiveMessagesTestException" />
+    </UnitTest>
+    <UnitTest name="ReceiveRoomsTest" storage="c:\users\kovpenko\desktop\chat\src\test\chat.test\bin\debug\chat.test.dll" id="1abfdb9e-7e13-e1a2-1229-d3e58614b10c">
+      <Execution id="a6805972-f7d1-4255-b995-2658f40eee99" />
+      <TestMethod codeBase="C:/Users/kovpenko/Desktop/Chat/src/test/Chat.Test/bin/Debug/Chat.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chat.Test.RoomManagerTest, Chat.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReceiveRoomsTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1abfdb9e-7e13-e1a2-1229-d3e58614b10c" executionId="a6805972-f7d1-4255-b995-2658f40eee99" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6b392ccf-8454-8608-8f21-db23085b66c0" executionId="cb332930-8210-42c6-99e0-057326b23e5a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e8ee53c4-4087-b4db-d874-9f2c25d2b361" executionId="3fec47af-9678-4fe1-8630-027ef1860095" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e9420a6d-23f3-71b8-9850-59a6c7eb09c6" executionId="8fd0ef45-1f16-4f99-9d15-5cdd57e22bd3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a6805972-f7d1-4255-b995-2658f40eee99" testId="1abfdb9e-7e13-e1a2-1229-d3e58614b10c" testName="ReceiveRoomsTest" computerName="INJETOXA" duration="00:00:00.0870633" startTime="2011-10-26T10:53:34.2351545+03:00" endTime="2011-10-26T10:53:34.5891747+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a6805972-f7d1-4255-b995-2658f40eee99">
+    </UnitTestResult>
+    <UnitTestResult executionId="cb332930-8210-42c6-99e0-057326b23e5a" testId="6b392ccf-8454-8608-8f21-db23085b66c0" testName="SendMessageTest" computerName="INJETOXA" duration="00:00:00.0478175" startTime="2011-10-26T10:53:34.5911748+03:00" endTime="2011-10-26T10:53:34.6471780+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cb332930-8210-42c6-99e0-057326b23e5a">
+    </UnitTestResult>
+    <UnitTestResult executionId="3fec47af-9678-4fe1-8630-027ef1860095" testId="e8ee53c4-4087-b4db-d874-9f2c25d2b361" testName="ReceiveMessagesTest" computerName="INJETOXA" duration="00:00:00.0331586" startTime="2011-10-26T10:53:34.6491782+03:00" endTime="2011-10-26T10:53:34.6901805+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3fec47af-9678-4fe1-8630-027ef1860095">
+    </UnitTestResult>
+    <UnitTestResult executionId="8fd0ef45-1f16-4f99-9d15-5cdd57e22bd3" testId="e9420a6d-23f3-71b8-9850-59a6c7eb09c6" testName="ReceiveMessagesTestException" computerName="INJETOXA" duration="00:00:00.0132043" startTime="2011-10-26T10:53:34.6921806+03:00" endTime="2011-10-26T10:53:34.7111817+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8fd0ef45-1f16-4f99-9d15-5cdd57e22bd3">
+    </UnitTestResult>
+  </Results>
+</TestRun>

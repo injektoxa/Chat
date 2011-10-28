@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="8c8925a0-82d9-4cc4-9fb3-023929912949" name="kovpenko@INJETOXA 2011-10-25 18:32:22" runUser="NIX\kovpenko" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="5645ed5a-a75b-4481-9f9c-4d7d94bfd810">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="kovpenko_INJETOXA 2011-10-25 18_32_22">
+      <DeploymentItem filename="C:\Users\kovpenko\Desktop\Chat\src\app\Chat.DataAccess\bin\Debug\Chat.DataAccess.dll" />
+      <DeploymentItem filename="C:\Users\kovpenko\Desktop\Chat\src\app\Chat.Core\bin\Debug\Chat.Core.dll" />
+      <DeploymentItem filename="C:\Users\kovpenko\Desktop\Chat\src\app\Chat.BusinessLogic\bin\Debug\Chat.BusinessLogic.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-10-25T18:32:22.7863553+03:00" queuing="2011-10-25T18:32:23.4028721+03:00" start="2011-10-25T18:32:23.4487617+03:00" finish="2011-10-25T18:32:24.1510721+03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="8" executed="8" passed="1" error="0" failed="7" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SendMessageTest" storage="c:\users\kovpenko\desktop\chat\src\test\chat.test\bin\debug\chat.test.dll" id="6b392ccf-8454-8608-8f21-db23085b66c0">
+      <Execution id="60c11c37-19b6-4e9d-b186-3f6e14893ab4" />
+      <TestMethod codeBase="C:/Users/kovpenko/Desktop/Chat/src/test/Chat.Test/bin/Debug/Chat.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chat.Test.ChatManagerTest, Chat.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SendMessageTest" />
+    </UnitTest>
+    <UnitTest name="CreateRoomTest" storage="c:\users\kovpenko\desktop\chat\src\test\chat.test\bin\debug\chat.test.dll" id="d8ea53f0-bcb4-4238-ca41-ef2664ab917e">
+      <Execution id="3bacb10d-1ce8-491c-9a19-c5374d0af1f6" />
+      <TestMethod codeBase="C:/Users/kovpenko/Desktop/Chat/src/test/Chat.Test/bin/Debug/Chat.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chat.Test.RoomManagerTest, Chat.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateRoomTest" />
+    </UnitTest>
+    <UnitTest name="ReceiveRoomsTest" storage="c:\users\kovpenko\desktop\chat\src\test\chat.test\bin\debug\chat.test.dll" id="1abfdb9e-7e13-e1a2-1229-d3e58614b10c">
+      <Execution id="eabdc368-c469-4f78-9725-7d8ed46c84b4" />
+      <TestMethod codeBase="C:/Users/kovpenko/Desktop/Chat/src/test/Chat.Test/bin/Debug/Chat.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chat.Test.RoomManagerTest, Chat.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReceiveRoomsTest" />
+    </UnitTest>
+    <UnitTest name="ReceiveMessagesTestException" storage="c:\users\kovpenko\desktop\chat\src\test\chat.test\bin\debug\chat.test.dll" id="e9420a6d-23f3-71b8-9850-59a6c7eb09c6">
+      <Execution id="75087804-d520-4980-b7c8-a126546df288" />
+      <TestMethod codeBase="C:/Users/kovpenko/Desktop/Chat/src/test/Chat.Test/bin/Debug/Chat.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chat.Test.ChatManagerTest, Chat.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReceiveMessagesTestException" />
+    </UnitTest>
+    <UnitTest name="ReceiveMessagesTest" storage="c:\users\kovpenko\desktop\chat\src\test\chat.test\bin\debug\chat.test.dll" id="e8ee53c4-4087-b4db-d874-9f2c25d2b361">
+      <Execution id="f0b3804e-6248-49ee-a6e4-c4db5d6c53e1" />
+      <TestMethod codeBase="C:/Users/kovpenko/Desktop/Chat/src/test/Chat.Test/bin/Debug/Chat.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chat.Test.ChatManagerTest, Chat.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReceiveMessagesTest" />
+    </UnitTest>
+    <UnitTest name="UserManagerConstructorTest" storage="c:\users\kovpenko\desktop\chat\src\test\chat.test\bin\debug\chat.test.dll" id="b46d1fcb-315c-46b2-570f-d37d10fdd51e">
+      <Execution id="5b0a6dee-d9b6-4d9d-8e88-662b55fc6373" />
+      <TestMethod codeBase="C:/Users/kovpenko/Desktop/Chat/src/test/Chat.Test/bin/Debug/Chat.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chat.Test.UserManagerTest, Chat.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UserManagerConstructorTest" />
+    </UnitTest>
+    <UnitTest name="RegisterUserTest" storage="c:\users\kovpenko\desktop\chat\src\test\chat.test\bin\debug\chat.test.dll" id="48cfddf4-4d48-410e-f895-cbb2d9ad694b">
+      <Execution id="b403615c-945a-48a3-b9af-feb3367d7b77" />
+      <TestMethod codeBase="C:/Users/kovpenko/Desktop/Chat/src/test/Chat.Test/bin/Debug/Chat.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chat.Test.UserManagerTest, Chat.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RegisterUserTest" />
+    </UnitTest>
+    <UnitTest name="ResolveLogAndWriteAnEntryTest" storage="c:\users\kovpenko\desktop\chat\src\test\chat.test\bin\debug\chat.test.dll" id="8ee227e1-6fa6-c58d-09c2-0e7f4b1a108c">
+      <Execution id="65ec886c-a3ec-459e-a116-e8d39ad093b6" />
+      <TestMethod codeBase="C:/Users/kovpenko/Desktop/Chat/src/test/Chat.Test/bin/Debug/Chat.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chat.Test.LoggerTest, Chat.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ResolveLogAndWriteAnEntryTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1abfdb9e-7e13-e1a2-1229-d3e58614b10c" executionId="eabdc368-c469-4f78-9725-7d8ed46c84b4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="48cfddf4-4d48-410e-f895-cbb2d9ad694b" executionId="b403615c-945a-48a3-b9af-feb3367d7b77" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6b392ccf-8454-8608-8f21-db23085b66c0" executionId="60c11c37-19b6-4e9d-b186-3f6e14893ab4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8ee227e1-6fa6-c58d-09c2-0e7f4b1a108c" executionId="65ec886c-a3ec-459e-a116-e8d39ad093b6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b46d1fcb-315c-46b2-570f-d37d10fdd51e" executionId="5b0a6dee-d9b6-4d9d-8e88-662b55fc6373" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d8ea53f0-bcb4-4238-ca41-ef2664ab917e" executionId="3bacb10d-1ce8-491c-9a19-c5374d0af1f6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e8ee53c4-4087-b4db-d874-9f2c25d2b361" executionId="f0b3804e-6248-49ee-a6e4-c4db5d6c53e1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e9420a6d-23f3-71b8-9850-59a6c7eb09c6" executionId="75087804-d520-4980-b7c8-a126546df288" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="eabdc368-c469-4f78-9725-7d8ed46c84b4" testId="1abfdb9e-7e13-e1a2-1229-d3e58614b10c" testName="ReceiveRoomsTest" computerName="INJETOXA" duration="00:00:00.1138058" startTime="2011-10-25T18:32:23.4587377+03:00" endTime="2011-10-25T18:32:23.9565401+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eabdc368-c469-4f78-9725-7d8ed46c84b4">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Chat.Test.RoomManagerTest.ReceiveRoomsTest threw exception: 
+System.Data.SqlClient.SqlException: An attempt to attach an auto-named database for file C:\Users\toxa\Desktop\Chat\src\app\Chat.DataAccess\App_Data\TestDB.mdf failed. A database with the same name exists, or specified file cannot be opened, or it is located on UNC share.</Message>
+          <StackTrace>    at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Linq.SqlClient.SqlConnectionManager.UseConnection(IConnectionUser user)
+   at System.Data.Linq.SqlClient.SqlProvider.get_IsSqlCe()
+   at System.Data.Linq.SqlClient.SqlProvider.InitializeProviderMode()
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.Table`1.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.Count[TSource](IQueryable`1 source)
+   at Chat.Test.RoomManagerTest.ReceiveRoomsTest() in C:\Users\kovpenko\Desktop\Chat\src\test\Chat.Test\RoomManagerTest.cs:line 41
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b403615c-945a-48a3-b9af-feb3367d7b77" testId="48cfddf4-4d48-410e-f895-cbb2d9ad694b" testName="RegisterUserTest" computerName="INJETOXA" duration="00:00:00.0058819" startTime="2011-10-25T18:32:23.9635233+03:00" endTime="2011-10-25T18:32:23.9844729+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b403615c-945a-48a3-b9af-feb3367d7b77">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Chat.Test.UserManagerTest.RegisterUserTest threw exception: 
+System.Data.SqlClient.SqlException: An attempt to attach an auto-named database for file C:\Users\toxa\Desktop\Chat\src\app\Chat.DataAccess\App_Data\TestDB.mdf failed. A database with the same name exists, or specified file cannot be opened, or it is located on UNC share.</Message>
+          <StackTrace>    at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Linq.SqlClient.SqlConnectionManager.UseConnection(IConnectionUser user)
+   at System.Data.Linq.SqlClient.SqlProvider.get_IsSqlCe()
+   at System.Data.Linq.SqlClient.SqlProvider.InitializeProviderMode()
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.Table`1.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.Count[TSource](IQueryable`1 source)
+   at Chat.Test.UserManagerTest.RegisterUserTest() in C:\Users\kovpenko\Desktop\Chat\src\test\Chat.Test\UserManagerTest.cs:line 42
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="60c11c37-19b6-4e9d-b186-3f6e14893ab4" testId="6b392ccf-8454-8608-8f21-db23085b66c0" testName="SendMessageTest" computerName="INJETOXA" duration="00:00:00.0150310" startTime="2011-10-25T18:32:23.9934513+03:00" endTime="2011-10-25T18:32:24.0144009+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="60c11c37-19b6-4e9d-b186-3f6e14893ab4">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Chat.Test.ChatManagerTest.SendMessageTest threw exception: 
+System.Data.SqlClient.SqlException: An attempt to attach an auto-named database for file C:\Users\toxa\Desktop\Chat\src\app\Chat.DataAccess\App_Data\TestDB.mdf failed. A database with the same name exists, or specified file cannot be opened, or it is located on UNC share.</Message>
+          <StackTrace>    at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges()
+   at Chat.DataAccess.Data.SqlRepository`1.SaveAll() in C:\Users\kovpenko\Desktop\ChatFromRep\src\app\Chat.DataAccess\Data\SqlRepository.cs:line 45
+   at Chat.Test.ChatManagerTest.SendMessageTest() in C:\Users\kovpenko\Desktop\Chat\src\test\Chat.Test\ChatManagerTest.cs:line 113
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="65ec886c-a3ec-459e-a116-e8d39ad093b6" testId="8ee227e1-6fa6-c58d-09c2-0e7f4b1a108c" testName="ResolveLogAndWriteAnEntryTest" computerName="INJETOXA" duration="00:00:00.0047928" startTime="2011-10-25T18:32:24.0203865+03:00" endTime="2011-10-25T18:32:24.0293649+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="65ec886c-a3ec-459e-a116-e8d39ad093b6">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   at Chat.Test.LoggerTest.ResolveLogAndWriteAnEntryTest() in C:\Users\kovpenko\Desktop\Chat\src\test\Chat.Test\LoggerTest.cs:line 30
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5b0a6dee-d9b6-4d9d-8e88-662b55fc6373" testId="b46d1fcb-315c-46b2-570f-d37d10fdd51e" testName="UserManagerConstructorTest" computerName="INJETOXA" duration="00:00:00.0011194" startTime="2011-10-25T18:32:24.0383433+03:00" endTime="2011-10-25T18:32:24.0443289+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5b0a6dee-d9b6-4d9d-8e88-662b55fc6373">
+    </UnitTestResult>
+    <UnitTestResult executionId="3bacb10d-1ce8-491c-9a19-c5374d0af1f6" testId="d8ea53f0-bcb4-4238-ca41-ef2664ab917e" testName="CreateRoomTest" computerName="INJETOXA" duration="00:00:00.0023459" startTime="2011-10-25T18:32:24.0483193+03:00" endTime="2011-10-25T18:32:24.0572977+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3bacb10d-1ce8-491c-9a19-c5374d0af1f6">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Chat.Test.RoomManagerTest.CreateRoomTest threw exception: 
+System.Data.SqlClient.SqlException: An attempt to attach an auto-named database for file C:\Users\toxa\Desktop\Chat\src\app\Chat.DataAccess\App_Data\TestDB.mdf failed. A database with the same name exists, or specified file cannot be opened, or it is located on UNC share.</Message>
+          <StackTrace>    at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Linq.SqlClient.SqlConnectionManager.UseConnection(IConnectionUser user)
+   at System.Data.Linq.SqlClient.SqlProvider.get_IsSqlCe()
+   at System.Data.Linq.SqlClient.SqlProvider.InitializeProviderMode()
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.Table`1.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.Count[TSource](IQueryable`1 source)
+   at Chat.Test.RoomManagerTest.CreateRoomTest() in C:\Users\kovpenko\Desktop\Chat\src\test\Chat.Test\RoomManagerTest.cs:line 23
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f0b3804e-6248-49ee-a6e4-c4db5d6c53e1" testId="e8ee53c4-4087-b4db-d874-9f2c25d2b361" testName="ReceiveMessagesTest" computerName="INJETOXA" duration="00:00:00.0034191" startTime="2011-10-25T18:32:24.0652785+03:00" endTime="2011-10-25T18:32:24.0722617+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f0b3804e-6248-49ee-a6e4-c4db5d6c53e1">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Chat.Test.ChatManagerTest.ReceiveMessagesTest threw exception: 
+System.Data.SqlClient.SqlException: An attempt to attach an auto-named database for file C:\Users\toxa\Desktop\Chat\src\app\Chat.DataAccess\App_Data\TestDB.mdf failed. A database with the same name exists, or specified file cannot be opened, or it is located on UNC share.</Message>
+          <StackTrace>    at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Linq.DataContext.SubmitChanges(ConflictMode failureMode)
+   at System.Data.Linq.DataContext.SubmitChanges()
+   at Chat.DataAccess.Data.SqlRepository`1.SaveAll() in C:\Users\kovpenko\Desktop\ChatFromRep\src\app\Chat.DataAccess\Data\SqlRepository.cs:line 45
+   at Chat.Test.ChatManagerTest.ReceiveMessagesTest() in C:\Users\kovpenko\Desktop\Chat\src\test\Chat.Test\ChatManagerTest.cs:line 58
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="75087804-d520-4980-b7c8-a126546df288" testId="e9420a6d-23f3-71b8-9850-59a6c7eb09c6" testName="ReceiveMessagesTestException" computerName="INJETOXA" duration="00:00:00.0084556" startTime="2011-10-25T18:32:24.0752545+03:00" endTime="2011-10-25T18:32:24.0922137+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="75087804-d520-4980-b7c8-a126546df288">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Chat.Test.ChatManagerTest.ReceiveMessagesTestException threw exception System.Data.SqlClient.SqlException, but exception System.ArgumentNullException was expected. Exception message: System.Data.SqlClient.SqlException: An attempt to attach an auto-named database for file C:\Users\toxa\Desktop\Chat\src\app\Chat.DataAccess\App_Data\TestDB.mdf failed. A database with the same name exists, or specified file cannot be opened, or it is located on UNC share.</Message>
+          <StackTrace>    at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Linq.SqlClient.SqlConnectionManager.UseConnection(IConnectionUser user)
+   at System.Data.Linq.SqlClient.SqlProvider.get_IsSqlCe()
+   at System.Data.Linq.SqlClient.SqlProvider.InitializeProviderMode()
+   at System.Data.Linq.SqlClient.SqlProvider.System.Data.Linq.Provider.IProvider.Execute(Expression query)
+   at System.Data.Linq.Table`1.GetEnumerator()
+   at System.Data.Linq.Table`1.System.Collections.Generic.IEnumerable&lt;TEntity&gt;.GetEnumerator()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at lambda_method(Closure )
+   at System.Linq.EnumerableExecutor`1.Execute()
+   at System.Linq.EnumerableQuery`1.System.Linq.IQueryProvider.Execute[S](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   at Chat.DataAccess.Data.SqlRepository`1.FindOne(Func`2 exp) in C:\Users\kovpenko\Desktop\ChatFromRep\src\app\Chat.DataAccess\Data\SqlRepository.cs:line 31
+   at Chat.BusinessLogic.Data.ChatManager.ReceiveMessages(String chatRoomId, String userId) in C:\Users\kovpenko\Desktop\Chat\src\app\Chat.BusinessLogic\Data\ChatManager.cs:line 46
+   at Chat.Test.ChatManagerTest.ReceiveMessagesTestException() in C:\Users\kovpenko\Desktop\Chat\src\test\Chat.Test\ChatManagerTest.cs:line 37
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

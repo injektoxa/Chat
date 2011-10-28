@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="2549f888-d6d0-4f71-aa22-14d079aead38" name="kovpenko@INJETOXA 2011-10-26 10:43:42" runUser="NIX\kovpenko" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="5645ed5a-a75b-4481-9f9c-4d7d94bfd810">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="kovpenko_INJETOXA 2011-10-26 10_43_42">
+      <DeploymentItem filename="C:\Users\kovpenko\Desktop\Chat\src\app\Chat.DataAccess\bin\Debug\Chat.DataAccess.dll" />
+      <DeploymentItem filename="C:\Users\kovpenko\Desktop\Chat\src\app\Chat.Core\bin\Debug\Chat.Core.dll" />
+      <DeploymentItem filename="C:\Users\kovpenko\Desktop\Chat\src\app\Chat.BusinessLogic\bin\Debug\Chat.BusinessLogic.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-10-26T10:43:42.8483291+03:00" queuing="2011-10-26T10:43:42.8553295+03:00" start="2011-10-26T10:43:42.8633299+03:00" finish="2011-10-26T10:43:45.1964634+03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="8" executed="8" passed="3" error="0" failed="5" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="SendMessageTest" storage="c:\users\kovpenko\desktop\chat\src\test\chat.test\bin\debug\chat.test.dll" id="6b392ccf-8454-8608-8f21-db23085b66c0">
+      <Execution id="d1b2b240-0bce-489b-9def-8fa515268ee8" />
+      <TestMethod codeBase="C:/Users/kovpenko/Desktop/Chat/src/test/Chat.Test/bin/Debug/Chat.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chat.Test.ChatManagerTest, Chat.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SendMessageTest" />
+    </UnitTest>
+    <UnitTest name="CreateRoomTest" storage="c:\users\kovpenko\desktop\chat\src\test\chat.test\bin\debug\chat.test.dll" id="d8ea53f0-bcb4-4238-ca41-ef2664ab917e">
+      <Execution id="b389929a-64ce-4022-8c7f-b25661b860b7" />
+      <TestMethod codeBase="C:/Users/kovpenko/Desktop/Chat/src/test/Chat.Test/bin/Debug/Chat.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chat.Test.RoomManagerTest, Chat.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateRoomTest" />
+    </UnitTest>
+    <UnitTest name="ReceiveRoomsTest" storage="c:\users\kovpenko\desktop\chat\src\test\chat.test\bin\debug\chat.test.dll" id="1abfdb9e-7e13-e1a2-1229-d3e58614b10c">
+      <Execution id="2011c7d8-b70f-4d56-9534-f3d08b9bcb84" />
+      <TestMethod codeBase="C:/Users/kovpenko/Desktop/Chat/src/test/Chat.Test/bin/Debug/Chat.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chat.Test.RoomManagerTest, Chat.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReceiveRoomsTest" />
+    </UnitTest>
+    <UnitTest name="ReceiveMessagesTestException" storage="c:\users\kovpenko\desktop\chat\src\test\chat.test\bin\debug\chat.test.dll" id="e9420a6d-23f3-71b8-9850-59a6c7eb09c6">
+      <Execution id="79b1b9d5-eb2c-4b57-a885-727611ee0592" />
+      <TestMethod codeBase="C:/Users/kovpenko/Desktop/Chat/src/test/Chat.Test/bin/Debug/Chat.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chat.Test.ChatManagerTest, Chat.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReceiveMessagesTestException" />
+    </UnitTest>
+    <UnitTest name="ReceiveMessagesTest" storage="c:\users\kovpenko\desktop\chat\src\test\chat.test\bin\debug\chat.test.dll" id="e8ee53c4-4087-b4db-d874-9f2c25d2b361">
+      <Execution id="60c8b0cd-a8c8-4fb4-a6d9-eea81f3044a7" />
+      <TestMethod codeBase="C:/Users/kovpenko/Desktop/Chat/src/test/Chat.Test/bin/Debug/Chat.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chat.Test.ChatManagerTest, Chat.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ReceiveMessagesTest" />
+    </UnitTest>
+    <UnitTest name="UserManagerConstructorTest" storage="c:\users\kovpenko\desktop\chat\src\test\chat.test\bin\debug\chat.test.dll" id="b46d1fcb-315c-46b2-570f-d37d10fdd51e">
+      <Execution id="197b849a-dfa3-4318-a39c-1a4b250951c6" />
+      <TestMethod codeBase="C:/Users/kovpenko/Desktop/Chat/src/test/Chat.Test/bin/Debug/Chat.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chat.Test.UserManagerTest, Chat.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UserManagerConstructorTest" />
+    </UnitTest>
+    <UnitTest name="RegisterUserTest" storage="c:\users\kovpenko\desktop\chat\src\test\chat.test\bin\debug\chat.test.dll" id="48cfddf4-4d48-410e-f895-cbb2d9ad694b">
+      <Execution id="4b0b8390-ef5f-4426-bcce-10ebb5d4e07c" />
+      <TestMethod codeBase="C:/Users/kovpenko/Desktop/Chat/src/test/Chat.Test/bin/Debug/Chat.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chat.Test.UserManagerTest, Chat.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RegisterUserTest" />
+    </UnitTest>
+    <UnitTest name="ResolveLogAndWriteAnEntryTest" storage="c:\users\kovpenko\desktop\chat\src\test\chat.test\bin\debug\chat.test.dll" id="8ee227e1-6fa6-c58d-09c2-0e7f4b1a108c">
+      <Execution id="e1180bfa-2e3a-4261-9c12-a5ac66fa0dec" />
+      <TestMethod codeBase="C:/Users/kovpenko/Desktop/Chat/src/test/Chat.Test/bin/Debug/Chat.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Chat.Test.LoggerTest, Chat.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ResolveLogAndWriteAnEntryTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1abfdb9e-7e13-e1a2-1229-d3e58614b10c" executionId="2011c7d8-b70f-4d56-9534-f3d08b9bcb84" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="48cfddf4-4d48-410e-f895-cbb2d9ad694b" executionId="4b0b8390-ef5f-4426-bcce-10ebb5d4e07c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6b392ccf-8454-8608-8f21-db23085b66c0" executionId="d1b2b240-0bce-489b-9def-8fa515268ee8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8ee227e1-6fa6-c58d-09c2-0e7f4b1a108c" executionId="e1180bfa-2e3a-4261-9c12-a5ac66fa0dec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b46d1fcb-315c-46b2-570f-d37d10fdd51e" executionId="197b849a-dfa3-4318-a39c-1a4b250951c6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d8ea53f0-bcb4-4238-ca41-ef2664ab917e" executionId="b389929a-64ce-4022-8c7f-b25661b860b7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e8ee53c4-4087-b4db-d874-9f2c25d2b361" executionId="60c8b0cd-a8c8-4fb4-a6d9-eea81f3044a7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e9420a6d-23f3-71b8-9850-59a6c7eb09c6" executionId="79b1b9d5-eb2c-4b57-a885-727611ee0592" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2011c7d8-b70f-4d56-9534-f3d08b9bcb84" testId="1abfdb9e-7e13-e1a2-1229-d3e58614b10c" testName="ReceiveRoomsTest" computerName="INJETOXA" duration="00:00:00.1309181" startTime="2011-10-26T10:43:42.8673302+03:00" endTime="2011-10-26T10:43:43.3013550+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2011c7d8-b70f-4d56-9534-f3d08b9bcb84">
+    </UnitTestResult>
+    <UnitTestResult executionId="4b0b8390-ef5f-4426-bcce-10ebb5d4e07c" testId="48cfddf4-4d48-410e-f895-cbb2d9ad694b" testName="RegisterUserTest" computerName="INJETOXA" duration="00:00:00.0369717" startTime="2011-10-26T10:43:43.3083554+03:00" endTime="2011-10-26T10:43:43.3633585+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4b0b8390-ef5f-4426-bcce-10ebb5d4e07c">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Chat.Test.UserManagerTest.RegisterUserTest threw exception: 
+System.ArgumentNullException: Entity cannot be null
+Parameter name: entity</Message>
+          <StackTrace>    at Chat.DataAccess.Data.SqlRepository`1.Delete(T entity) in C:\Users\kovpenko\Desktop\Chat\src\app\Chat.DataAccess\Data\SqlRepository.cs:line 52
+   at Chat.Test.UserManagerTest.RegisterUserTest() in C:\Users\kovpenko\Desktop\Chat\src\test\Chat.Test\UserManagerTest.cs:line 54
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d1b2b240-0bce-489b-9def-8fa515268ee8" testId="6b392ccf-8454-8608-8f21-db23085b66c0" testName="SendMessageTest" computerName="INJETOXA" duration="00:00:00.1592708" startTime="2011-10-26T10:43:43.3653587+03:00" endTime="2011-10-26T10:43:43.5383686+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d1b2b240-0bce-489b-9def-8fa515268ee8">
+    </UnitTestResult>
+    <UnitTestResult executionId="e1180bfa-2e3a-4261-9c12-a5ac66fa0dec" testId="8ee227e1-6fa6-c58d-09c2-0e7f4b1a108c" testName="ResolveLogAndWriteAnEntryTest" computerName="INJETOXA" duration="00:00:00.0030197" startTime="2011-10-26T10:43:43.5393686+03:00" endTime="2011-10-26T10:43:43.5503692+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e1180bfa-2e3a-4261-9c12-a5ac66fa0dec">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   at Chat.Test.LoggerTest.ResolveLogAndWriteAnEntryTest() in C:\Users\kovpenko\Desktop\Chat\src\test\Chat.Test\LoggerTest.cs:line 30
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="197b849a-dfa3-4318-a39c-1a4b250951c6" testId="b46d1fcb-315c-46b2-570f-d37d10fdd51e" testName="UserManagerConstructorTest" computerName="INJETOXA" duration="00:00:00.0001973" startTime="2011-10-26T10:43:43.5523694+03:00" endTime="2011-10-26T10:43:43.5613699+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="197b849a-dfa3-4318-a39c-1a4b250951c6">
+    </UnitTestResult>
+    <UnitTestResult executionId="b389929a-64ce-4022-8c7f-b25661b860b7" testId="d8ea53f0-bcb4-4238-ca41-ef2664ab917e" testName="CreateRoomTest" computerName="INJETOXA" duration="00:00:00.0254328" startTime="2011-10-26T10:43:43.5663702+03:00" endTime="2011-10-26T10:43:43.5963719+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b389929a-64ce-4022-8c7f-b25661b860b7">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Chat.Test.RoomManagerTest.CreateRoomTest threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at Chat.BusinessLogic.Data.RoomManager.CreateRoom(String roomName, Int32 creatorId) in C:\Users\kovpenko\Desktop\Chat\src\app\Chat.BusinessLogic\Data\RoomManager.cs:line 45
+   at Chat.Test.RoomManagerTest.CreateRoomTest() in C:\Users\kovpenko\Desktop\Chat\src\test\Chat.Test\RoomManagerTest.cs:line 25
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="60c8b0cd-a8c8-4fb4-a6d9-eea81f3044a7" testId="e8ee53c4-4087-b4db-d874-9f2c25d2b361" testName="ReceiveMessagesTest" computerName="INJETOXA" duration="00:00:00.0345816" startTime="2011-10-26T10:43:43.6043723+03:00" endTime="2011-10-26T10:43:43.6443746+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="60c8b0cd-a8c8-4fb4-a6d9-eea81f3044a7">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;2&gt;. Actual:&lt;1&gt;. </Message>
+          <StackTrace>   at Chat.Test.ChatManagerTest.ReceiveMessagesTest() in C:\Users\kovpenko\Desktop\Chat\src\test\Chat.Test\ChatManagerTest.cs:line 98
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="79b1b9d5-eb2c-4b57-a885-727611ee0592" testId="e9420a6d-23f3-71b8-9850-59a6c7eb09c6" testName="ReceiveMessagesTestException" computerName="INJETOXA" duration="00:00:00.0147520" startTime="2011-10-26T10:43:43.6463747+03:00" endTime="2011-10-26T10:43:43.6703761+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="79b1b9d5-eb2c-4b57-a885-727611ee0592">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Chat.Test.ChatManagerTest.ReceiveMessagesTestException threw exception System.NullReferenceException, but exception System.ArgumentNullException was expected. Exception message: System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at Chat.BusinessLogic.Data.ChatManager.&lt;&gt;c__DisplayClass4.&lt;ReceiveMessages&gt;b__2(Message m) in C:\Users\kovpenko\Desktop\Chat\src\app\Chat.BusinessLogic\Data\ChatManager.cs:line 49
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Chat.BusinessLogic.Data.ChatManager.ReceiveMessages(String chatRoomId, String userId) in C:\Users\kovpenko\Desktop\Chat\src\app\Chat.BusinessLogic\Data\ChatManager.cs:line 47
+   at Chat.Test.ChatManagerTest.ReceiveMessagesTestException() in C:\Users\kovpenko\Desktop\Chat\src\test\Chat.Test\ChatManagerTest.cs:line 37
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
